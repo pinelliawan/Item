@@ -1,0 +1,142 @@
+.fokey-top{
+    border-bottom: 1px solid #e8e8e4;
+    background: #f0efeb;
+    margin: 0;
+}
+.fokey-img-01{
+    width: 104px;
+    height: 100%;
+}
+.fokey-banner{
+    margin-top: 1em;
+    height: 400px;
+    background: url("../images/banner-bg.jpg");
+}
+#column-one{
+    padding-top: 235px;
+}
+#column-one h3{
+    display: block;
+    padding: 10px;
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 2px;
+    background: rgba(0,0,0,0.4);
+}
+#column-one p{
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background: rgba(0,0,0,0.4);
+}
+.fokey-01{
+    margin: 32px;
+}
+.fokey-content{
+    background: #f6f6f4;
+}
+.fokey-gap{
+    margin: 40px 0;
+}
+.fokey-bg-01{
+    background: #fff;
+}
+#fokey-b1,#fokey-b2,#fokey-b3{
+    background: #f8f7f3;
+}
+.fokey-p1{
+    text-align: center;
+}
+.fokey-img-02{
+    position: absolute;
+    top: -16px;
+    left: -6px;
+}
+
+.fokey-one{
+    margin: 0 auto;
+    text-align: center;
+}
+.fokey-one-head{
+    margin: 40px auto;
+    width: 280px;
+    height: 40px;
+    background: #e7e6e2;
+}
+.sanjiao-01{
+    float: left;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border-width: 20px;
+    border-color: transparent transparent transparent #f6f6f4;
+    border-style: dashed dashed dashed solid;
+}
+.fokey-one-h2{
+    float: left;
+}
+.fokey-one-h2 h2{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.sanjiao-02{
+    float: right;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border-width: 20px;
+    border-color: transparent #f6f6f4 transparent transparent;
+    border-style: dashed solid dashed dashed;
+}
+
+.fokey-one-img{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.fokey-one-img img{
+    width: 135px;
+    height: auto;
+    padding-right: 10px;
+}
+.fokey-one-img img:last-child{
+    padding-right: 0;
+}
+
+.fokey-p2{
+    font-size: 20px;
+    text-align: right;
+}
+/*---------720px--------*/
+.secondary.menu .toc.item {
+    display: none;
+}
+@media only screen and (max-width: 700px) {
+    .ui.fixed.menu {
+        display: none !important;
+    }
+    .secondary.point.menu .item,
+    .secondary.point.menu .menu {
+        display: none;
+    }
+    .secondary.point.menu .toc.item {
+        display: block;
+    }
+    .masthead.segment {
+        min-height: 50px;
+    }
+    .masthead h1.ui.header {
+        font-size: 2em;
+        margin-top: 1.5em;
+    }
+    .masthead h2 {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+    }
+    #column-one{
+        padding-top: 255px;
+    }
+}
